@@ -12,6 +12,8 @@ body {
 
 .content {
   padding: 30px;
+  display: flex;
+  gap: 10px;
 }
 
 h2 {
@@ -37,6 +39,8 @@ form {
 #sign-in,
 #sign-up {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -82,4 +86,37 @@ input[type="submit"]:hover {
 
 .form select {
   height: 30px;
+}
+
+/* My Styles */
+
+.form-input-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 30px; /* Not supposed to use "margin"? */
+}
+
+.form-checkbox-control {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-submit-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+hr {
+  margin: 30px auto; /* Not supposed to use "margin"? */
+}
+
+/* Sign Up Section */
+
+.form-group-horizontal-control {
+  display: flex;
+  justify-content: space-between;
 }
