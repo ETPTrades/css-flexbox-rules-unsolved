@@ -94,7 +94,11 @@ input[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  margin-bottom: 30px; /* Not supposed to use "margin"? */
+  /* margin-bottom: 30px;  Not supposed to use "margin"? */
+}
+
+.form-input-control select {
+  height: 30px;
 }
 
 .form-checkbox-control {
@@ -104,6 +108,11 @@ input[type="submit"]:hover {
   gap: 6px;
 }
 
+.form-checkbox-control >label {
+  font-weight: normal;
+}
+
+
 .form-submit-control {
   display: flex;
   align-items: center;
@@ -111,7 +120,7 @@ input[type="submit"]:hover {
 }
 
 hr {
-  margin: 30px auto; /* Not supposed to use "margin"? */
+  /* margin: 30px auto; Not supposed to use "margin"? */
 }
 
 /* Sign Up Section */
@@ -119,4 +128,8 @@ hr {
 .form-group-horizontal-control {
   display: flex;
   justify-content: space-between;
+}
+
+.form-radio-control > label {
+  font-weight: normal;
 }
