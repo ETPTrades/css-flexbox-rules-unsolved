@@ -227,10 +227,15 @@ i.fa-th-list {
 /* LINE VIEW STYLES */
 
 .lines.products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .lines .product {
   padding: 20px;
+  display: flex;
+  gap: 25px;
 }
 
 .lines .product-image-wrapper {
@@ -239,12 +244,18 @@ i.fa-th-list {
 }
 
 .lines .product-data {
+  display: flex;
+  gap: 50px;
+  align-items: center;
 }
 
 .lines .product-info {
 }
 
 .lines .product-action {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 /* LINES-ACTION VIEW */
