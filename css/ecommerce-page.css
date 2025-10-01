@@ -167,6 +167,7 @@ i.fa-th-list {
 .product-description {
   line-height: 24px;
   color: #8d8ba5;
+  width: 95%;
 }
 
 .product-price {
@@ -250,6 +251,10 @@ i.fa-th-list {
 }
 
 .lines .product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-right: 0.1px solid;
 }
 
 .lines .product-action {
