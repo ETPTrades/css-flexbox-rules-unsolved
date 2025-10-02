@@ -197,9 +197,9 @@ i.fa-th-list {
 /* GRID VIEW STYLES */
 
 .grid.products {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .grid .product {
@@ -217,12 +217,18 @@ i.fa-th-list {
 
 .grid .product-info {
   text-align: center;
-  padding: 0 20px 30px;
+  padding: 15px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 200px;
 }
 
 .grid .product-action {
   padding-top: 30px;
   border-top: 1px solid #8d8ba5;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* LINE VIEW STYLES */
@@ -241,6 +247,7 @@ i.fa-th-list {
 .lines .product-image-wrapper {
   min-width: 300px;
   height: 200px;
+  padding: 10px;
 }
 
 .lines .product-data {
@@ -253,10 +260,10 @@ i.fa-th-list {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  padding-top: 15px;
 }
 
 .lines .product-action {
-  /*border-left: 1px solid #8d8ba5;*/
   min-width: 200px;
   display: flex;
   align-items: center;
@@ -273,7 +280,7 @@ i.fa-th-list {
 }
 
 .lines-action .product {
-  padding: 20px;
+  padding: 15px;
   display: flex;
   gap: 25px;
 }
